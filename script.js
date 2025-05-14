@@ -10,7 +10,7 @@ pannellum.viewer('panorama', {
             "pitch": -3,
             "yaw": 117,
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/medialabdivulga/conectomavirtual360/refs/heads/main/assets/actividades360/visitaRaquel1.jpg?token=GHSAT0AAAAAADD2YBY4VOA2Z6DICC5BKKFO2BD7A6Q",
+            "panorama": "https://raw.githubusercontent.com/medialabdivulga/conectomavirtual360/refs/heads/main/assets/actividades360/visitaRaquel1.jpg",
             "hotSpots": [
                 {
                     "pitch": -2.1,
@@ -25,7 +25,7 @@ pannellum.viewer('panorama', {
             "hfov": 110,
             "yaw": 5,
             "type": "equirectangular",
-            "panorama": "https://raw.githubusercontent.com/medialabdivulga/conectomavirtual360/refs/heads/main/assets/actividades360/visitaRaquel2.jpg?token=GHSAT0AAAAAADD2YBY4VLOTFUGCVIMJACWA2BD7BBA",
+            "panorama": "https://raw.githubusercontent.com/medialabdivulga/conectomavirtual360/refs/heads/main/assets/actividades360/visitaRaquel2.jpg",
             "hotSpots": [
                 {
                     "pitch": -0.6,
