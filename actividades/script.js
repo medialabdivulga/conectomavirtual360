@@ -1,37 +1,37 @@
 pannellum.viewer('panorama', {   
     "default": {
-        "firstScene": "circle",
+        "firstScene": "visita1",
         "sceneFadeDuration": 1000
     },
 
     "scenes": {
-        "circle": {
+        "visita1": {
             "hfov": 110,
-            "pitch": -3,
-            "yaw": 117,
+            "pitch": -10,
+            "yaw": 57,
             "type": "equirectangular",
             "panorama": "https://raw.githubusercontent.com/medialabdivulga/conectomavirtual360/refs/heads/main/actividades/assets/img/visitaRaquel1.jpg",
             "hotSpots": [
                 {
                     "pitch": -2.1,
-                    "yaw": 45.9,
+                    "yaw": 77.9,
                     "type": "scene",
-                    "sceneId": "house"
+                    "sceneId": "visita2"
                 }
             ]
         },
 
-        "house": {
+        "visita2": {
             "hfov": 110,
-            "yaw": 5,
+            "yaw": 2,
             "type": "equirectangular",
             "panorama": "https://raw.githubusercontent.com/medialabdivulga/conectomavirtual360/refs/heads/main/actividades/assets/img/visitaRaquel2.jpg",
             "hotSpots": [
                 {
-                    "pitch": -0.6,
-                    "yaw": 37.1,
+                    "pitch": -1,
+                    "yaw": 17.1,
                     "type": "scene",
-                    "sceneId": "circle",
+                    "sceneId": "visita1",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
